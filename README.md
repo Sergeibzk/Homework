@@ -1,2 +1,2 @@
-# All HW from Vadim's course
-I'm doing home work and place it here, in GitHub.
+# My Home Work
+I'm doing home work from Vadim Ksendzov course and place it here, in GitHub.
