@@ -1,8 +1,8 @@
-#How to Create and Use Bash Scripts
+# How to Create and Use Bash Scripts
 
 [Link to article and author](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
 
-###Create your first script
+### Create your first script
 
 
 Create a file __hello-world__ with a string
@@ -23,7 +23,7 @@ The script run successfully!
 Hello, world!
 ```
 
-###Executable Scripts
+### Executable Scripts
 
 If you want to run the script by name alone:
 
@@ -63,7 +63,7 @@ _response in terminal_
 Hello, world!
 ```
 
-###Strings
+### Strings
 
 Wrapping quotes in string by wrappin string in opposite quotes
 
@@ -92,7 +92,7 @@ This string has a
 new line
 ```
 
-###Variables
+### Variables
 
 Example when a variable used for the entity being greeted, which is World
 
@@ -130,7 +130,7 @@ _response in terminal same for ver.1 and 2_
 Hello, World!
 ```
 
-###Shell Execution
+### Shell Execution
 
 Using the output of a shell execution within a string.
 For example the __whoami__ command will print out your current user
@@ -145,7 +145,7 @@ _response in terminal_
 Hello, sergeibzk!
 ```
 
-###User Input
+### User Input
 
 Making script that asks for the name of the person calling the script
 
@@ -166,7 +166,7 @@ Who are you? > Sergei
 Hello, Sergei!
 ```
 
-###Conditions
+### Conditions
 
 __if__ statements use the __if__, __then__, __else__, and __fi__ keywords. The condition goes in square brackets
 
@@ -192,7 +192,7 @@ How old are you? > 30
 You can drink.
 ```
 
-###Loops
+### Loops
 
 Bash uses __for__, __while__, and __until__ loops. In this example, I'll use the __for...in__ loop to get all the files in a directory and list them
 
@@ -213,7 +213,7 @@ _response in terminal_
 Desktop Documents Downloads hello-world Music Pictures Public Templates Videos
 ```
 
-###Arrays
+### Arrays
 
 An array in bash is defined inside parentheses. There are no commas between the items of the array. Arrays are 0-indexed in bash
 
